@@ -1,6 +1,5 @@
 from http.client import responses
 
-from django.template.context_processors import request
 from rest_framework.decorators import api_view
 from rest_framework.generics import get_object_or_404
 from rest_framework.request import Request
